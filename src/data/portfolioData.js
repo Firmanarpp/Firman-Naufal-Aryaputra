@@ -89,7 +89,7 @@ export const experiences = [
     period: "2025",
     description:
       "Merancang aplikasi web inventaris ruangan yang responsif dan optimalisasi basis data. Bertanggung jawab pada seluruh siklus pengembangan mulai dari desain UI hingga deployment.",
-    tags: ["React.js", "PHP", "MySQL", "REST API"],
+    tags: ["Laravel", "PHP", "MySQL", "REST API"],
     icon: "Briefcase",
   },
 ];
