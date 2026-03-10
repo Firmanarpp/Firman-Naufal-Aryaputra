@@ -48,8 +48,8 @@ export default function Navbar() {
         >
           <div className="w-9 h-9 rounded-lg overflow-hidden border border-cyan-500/30">
             <img 
-              src="/profile.png" 
-              alt="Firman" 
+              src="/firman-naufal-aryaputra.png" 
+              alt="Logo Firman Naufal Aryaputra" 
               className="w-full h-full object-cover"
             />
           </div>

@@ -13,8 +13,8 @@ export default function Footer() {
             <div className="flex items-center justify-center sm:justify-start gap-2 mb-2">
               <div className="w-8 h-8 rounded-lg overflow-hidden border border-white/10">
                 <img 
-                  src="/profile.png" 
-                  alt="Firman" 
+                  src="/firman-naufal-aryaputra.png" 
+                  alt="Logo Firman Naufal Aryaputra" 
                   className="w-full h-full object-cover"
                 />
               </div>

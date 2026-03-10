@@ -165,8 +165,8 @@ export default function About() {
               {/* Center avatar */}
               <div className="absolute inset-12 rounded-full overflow-hidden border border-cyan-500/30 flex items-center justify-center backdrop-blur-sm z-10">
                 <img 
-                  src="/profile.png" 
-                  alt="Firman" 
+                  src="/firman-naufal-aryaputra.png" 
+                  alt="Foto Profil Firman Naufal Aryaputra" 
                   className="w-full h-full object-cover opacity-90"
                 />
               </div>

@@ -139,11 +139,7 @@ export default function Hero() {
         >
           Hi, I&apos;m{" "}
           <span className="bg-gradient-to-r from-cyan-400 via-cyan-300 to-emerald-400 bg-clip-text text-transparent glow-text-cyan">
-            {personalInfo.name.split(" ")[0]}
-          </span>
-          <br />
-          <span className="text-3xl sm:text-5xl lg:text-6xl text-zinc-200">
-            {personalInfo.name.split(" ").slice(1).join(" ")}
+            Firman Naufal Aryaputra
           </span>
         </motion.h1>
 
