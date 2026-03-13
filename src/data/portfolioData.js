@@ -165,3 +165,18 @@ export const projects = [
     glowColor: "rgba(139, 92, 246, 0.2)",
   },
 ];
+
+export const publications = [
+  {
+    id: 1,
+    title: "Monk Skin Tone Classification: RMSprop vs Adam Optimizer in MobileNetV2",
+    journal: "Jurnal Informatika: Jurnal Pengembangan IT (JPIT)",
+    vol: "10",
+    no: "3",
+    year: "2025",
+    authors: "Firman Naufal Aryaputra, Christy Atika Sari, Eko Hari Rachmawanto",
+    doi: "https://doi.org/10.30591/jpit.v10i3.8886",
+    summary: "Riset ini mengembangkan sistem klasifikasi warna kulit manusia menggunakan skala Monk Skin Tone (MST) dengan arsitektur MobileNetV2. Menguji optimasi Adam dan RMSprop untuk mencapai akurasi hingga 98.26% guna mendukung personalisasi fashion yang inklusif.",
+    tags: ["Deep Learning", "MobileNetV2", "Computer Vision", "Skin Tone Classification"],
+  },
+];
