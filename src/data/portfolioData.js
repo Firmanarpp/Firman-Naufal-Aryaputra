@@ -44,9 +44,9 @@ export const skills = [
     icon: "Database",
     color: "cyan",
     items: [
-      { name: "MySQL / PostgreSQL", level: 80 },
-      { name: "MongoDB", level: 70 },
-      { name: "Redis", level: 60 },
+      { name: "MySQL", level: 85 },
+      { name: "XAMPP / PHPMyAdmin", level: 86 },
+      { name: "Supabase / Firebase", level: 80 },
     ],
   },
   {
@@ -76,7 +76,6 @@ export const skills = [
     items: [
       { name: "LLM Integration (GPT/Gemini)", level: 80 },
       { name: "Prompt Engineering", level: 85 },
-      { name: "LangChain / RAG", level: 70 },
     ],
   },
 ];
