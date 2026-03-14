@@ -35,11 +35,10 @@ export default function Navbar() {
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-zinc-950/80 backdrop-blur-xl border-b border-white/5 shadow-lg"
-          : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+        ? "bg-zinc-950/80 backdrop-blur-xl border-b border-white/5 shadow-lg"
+        : "bg-transparent"
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
@@ -49,9 +48,9 @@ export default function Navbar() {
           whileHover={{ scale: 1.03 }}
         >
           <div className="w-9 h-9 rounded-lg overflow-hidden border border-cyan-500/30">
-            <img 
-              src="/firman-naufal-aryaputra.png" 
-              alt="Logo Firman Naufal Aryaputra" 
+            <img
+              src="/firman-naufal-aryaputra.png"
+              alt="Logo Firman Naufal Aryaputra"
               className="w-full h-full object-cover"
             />
           </div>
@@ -66,9 +65,8 @@ export default function Navbar() {
             <li key={label}>
               <button
                 onClick={() => handleNavClick(label, href)}
-                className={`nav-link text-sm font-medium transition-colors duration-200 ${
-                  active === label ? "text-cyan-400" : "text-zinc-400 hover:text-white"
-                }`}
+                className={`nav-link text-sm font-medium transition-colors duration-200 ${active === label ? "text-cyan-400" : "text-zinc-400 hover:text-white"
+                  }`}
               >
                 {label}
               </button>
@@ -107,9 +105,8 @@ export default function Navbar() {
                 <li key={label}>
                   <button
                     onClick={() => handleNavClick(label, href)}
-                    className={`block text-sm font-medium w-full text-left py-2 ${
-                      active === label ? "text-cyan-400" : "text-zinc-400"
-                    }`}
+                    className={`block text-sm font-medium w-full text-left py-2 ${active === label ? "text-cyan-400" : "text-zinc-400"
+                      }`}
                   >
                     {label}
                   </button>
