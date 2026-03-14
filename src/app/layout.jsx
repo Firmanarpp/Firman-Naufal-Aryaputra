@@ -26,7 +26,7 @@ export const metadata = {
   openGraph: {
     title: 'Firman Naufal Aryaputra - Web Developer Portfolio',
     description: 'Portfolio profesional Firman Naufal Aryaputra. Berpengalaman di Frontend Next.js, React, UI/UX, dan AI Integrations.',
-    url: 'https://firmanarpp.vercel.app', 
+    url: 'https://firman-naufal-aryaputra.vercel.app', 
     siteName: 'Firman Naufal Aryaputra',
     images: [
       {
@@ -49,7 +49,7 @@ export const metadata = {
     google: 'e3muWUds8C3okjMwupCYVzVu1gMGALkeCnVr2A0d2XE',
   },
   alternates: {
-    canonical: 'https://firmanarpp.vercel.app', // Ganti nanti jika ingin URL final beda
+    canonical: 'https://firman-naufal-aryaputra.vercel.app', // Ganti nanti jika ingin URL final beda
   }
 };
 

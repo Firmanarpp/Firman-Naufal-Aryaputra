@@ -16,7 +16,7 @@ export default function Home() {
       name: 'Firman Naufal Aryaputra',
       jobTitle: 'Web Developer',
       description: 'Web Developer yang mengkhususkan diri dalam pengembangan frontend, Next.js, React, dan integrasi AI.',
-      url: 'https://firmanarpp.vercel.app', // Update soon if you buy domain
+      url: 'https://firman-naufal-aryaputra.vercel.app', // Update soon if you buy domain
       sameAs: [
         'https://github.com/Firmanarpp',
         'https://linkedin.com/in/firman-naufal-aryaputra' // Sesuaikan jika punya linkedin
