@@ -164,6 +164,18 @@ export const projects = [
     gradient: "from-violet-500/20 to-purple-500/20",
     glowColor: "rgba(139, 92, 246, 0.2)",
   },
+  {
+    id: 3,
+    title: "OrangeCarwash77",
+    category: "Web Application",
+    description:
+      "Landing page modern untuk jasa cuci mobil profesional dengan fitur booking, showcase layanan, galeri hasil pengerjaan, dan desain yang responsif serta elegan.",
+    tech: ["React.js", "TailwindCSS", "Framer Motion", "Vite"],
+    github: "https://github.com/Firmanarpp/OrangeCarwash77.git",
+    demo: "https://orange-carwash77.vercel.app",
+    gradient: "from-orange-500/20 to-red-500/20",
+    glowColor: "rgba(249, 115, 22, 0.2)",
+  },
 ];
 
 export const publications = [

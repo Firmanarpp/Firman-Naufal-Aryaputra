@@ -6,6 +6,7 @@ import { projects } from "../data/portfolioData";
 const imageMap = {
   1: "/project-batik.png",
   2: "/project-sholat.png",
+  3: "/project-carwash.png",
 };
 
 const categoryColors = {
