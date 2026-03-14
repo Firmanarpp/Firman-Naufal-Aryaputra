@@ -1,3 +1,4 @@
+"use client";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { BookOpen, ExternalLink, Calendar, Users, Award } from "lucide-react";

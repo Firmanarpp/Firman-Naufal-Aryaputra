@@ -1,3 +1,4 @@
+"use client";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Monitor, Server, Database, BarChart2, Brain, Sparkles, User, MapPin, Mail, Phone } from "lucide-react";

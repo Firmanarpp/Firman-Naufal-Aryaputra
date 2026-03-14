@@ -1,3 +1,4 @@
+"use client";
 import { Github, Linkedin, Mail, Heart, ArrowUp } from "lucide-react";
 import { personalInfo } from "../data/portfolioData";
 
